@@ -10,7 +10,7 @@ env/
 
 # Edge Impulse model binaries
 *.eim
-
+ 
 # IDE
 .vscode/
 .idea/

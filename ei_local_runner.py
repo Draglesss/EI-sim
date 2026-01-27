@@ -10,7 +10,7 @@ class EIResult:
     raw: Dict[str, Any]
     anomaly: Optional[float]
 
-
+ 
 class EIRunner:
     """
     Thin wrapper around Edge Impulse Linux Python SDK.

@@ -179,7 +179,7 @@ def main() -> None:
     rows_per_window = input_features_count // axis_count
     window_s = rows_per_window * (interval_ms / 1000.0)
     freq_hz = 1000.0 / interval_ms
-
+ 
     if st.session_state.model_info:
         with st.expander("Model info", expanded=False):
             st.json(st.session_state.model_info)
