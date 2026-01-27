@@ -7,7 +7,7 @@ timestamp,gas,label
 0,0.123,normal
 100,0.121,normal
 ...
-
+ 
 Signal synthesis overview:
 
 - Baseline: constant level in [0, 1]
@@ -17,7 +17,7 @@ Signal synthesis overview:
   - step leak: exponential rise after a start time (first-order response)
   - intermittent: periodic pulses (on/off)
   - spikes: short impulses at random times
-  - noisy environment: low-frequency sinusoid + higher noise
+  - noisy environment: low-frequency sinusoid + higher noise (e.g., vibration / interference)
 """
 
 from __future__ import annotations
